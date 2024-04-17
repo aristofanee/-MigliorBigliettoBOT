@@ -1,0 +1,895 @@
+{
+  "searchId": "830001650-830006998-one_way-2024-04-07T15:34:43.896+02:00---rewq-fdsa-iokm-vcxz-FBN-S",
+  "cartId": "62b627cf-b4bb-4c88-b27d-e11c21d61329",
+  "highlightedMessages": [],
+  "solutions": [
+    {
+      "solution": {
+        "_type": "TICKET",
+        "id": "x394b29ea-2973-4c05-ba86-68a9e31249bb",
+        "origin": "Milano Rogoredo",
+        "destination": "Firenze S. M. Novella",
+        "departureTime": "2024-04-07T15:38:00.000+02:00",
+        "arrivalTime": "2024-04-07T17:39:00.000+02:00",
+        "duration": "2h 01min",
+        "status": "SALEABLE",
+        "trains": [
+          {
+            "description": "9643",
+            "trainCategory": "Frecciarossa",
+            "acronym": "FR",
+            "denomination": "FRECCIAROSSA 1000",
+            "name": "9643",
+            "logoId": "FR1000",
+            "urban": false
+          },
+          {
+            "description": "9427",
+            "trainCategory": "Frecciarossa",
+            "acronym": "FR",
+            "denomination": "FRECCIAROSSA 1000",
+            "name": "9427",
+            "logoId": "FR1000",
+            "urban": false
+          }
+        ],
+        "price": {
+          "currency": "�",
+          "amount": 85.00,
+          "originalAmount": null,
+          "indicative": false
+        },
+        "discounts": [],
+        "nodes": [
+          {
+            "id": "xbb4a4767-e503-4133-9f6a-d32958676797",
+            "origin": "Milano Rogoredo",
+            "destination": "Bologna Centrale",
+            "departureTime": "2024-04-07T15:38:00.000+02:00",
+            "arrivalTime": "2024-04-07T16:34:00.000+02:00",
+            "salable": false,
+            "train": {
+              "description": "9643",
+              "trainCategory": "Frecciarossa",
+              "acronym": "FR",
+              "denomination": "FRECCIAROSSA 1000",
+              "name": "9643",
+              "logoId": "FR1000",
+              "urban": false
+            }
+          },
+          {
+            "id": "xc18f99ec-ace0-4628-a992-db00bbc39346",
+            "origin": "Bologna Centrale",
+            "destination": "Firenze S. M. Novella",
+            "departureTime": "2024-04-07T17:02:00.000+02:00",
+            "arrivalTime": "2024-04-07T17:39:00.000+02:00",
+            "salable": false,
+            "train": {
+              "description": "9427",
+              "trainCategory": "Frecciarossa",
+              "acronym": "FR",
+              "denomination": "FRECCIAROSSA 1000",
+              "name": "9427",
+              "logoId": "FR1000",
+              "urban": false
+            }
+          }
+        ],
+        "additionalPrice": null
+      },
+      "grids": [
+        {
+          "id": "xbb4a4767-e503-4133-9f6a-d32958676797",
+          "summaries": [
+            {
+              "name": "Frecciarossa 9643",
+              "description": "Milano Rogoredo (15:38) - Bologna Centrale (16:34)",
+              "duration": "56min",
+              "highlightedMessage": null,
+              "urban": false,
+              "vehicleInfo": null,
+              "departureLocationName": "Milano Rogoredo",
+              "arrivalLocationName": "Bologna Centrale",
+              "departureTime": "2024-04-07T15:38:00.000+02:00",
+              "arrivalTime": "2024-04-07T16:34:00.000+02:00",
+              "trainInfo": {
+                "description": "9643",
+                "trainCategory": "Frecciarossa",
+                "acronym": "FR",
+                "denomination": "FRECCIAROSSA 1000",
+                "name": "9643",
+                "logoId": "FR1000",
+                "urban": false
+              }
+            }
+          ],
+          "selectedOfferId": 1,
+          "selectedServiceId": 30005,
+          "services": [
+            {
+              "id": 30005,
+              "name": "STANDARD",
+              "shortName": "STANDARD",
+              "groupName": "LABEL.SERVICE.GROUP.2STD",
+              "description": null,
+              "descriptionStandard": "",
+              "offers": [
+                {
+                  "offerId": 1,
+                  "serviceId": 30005,
+                  "availableServiceId": null,
+                  "serviceName": "STANDARD",
+                  "name": "BASE",
+                  "description": "This ticket allows unlimited booking changes prior to departure. For Frecce Trains, if the Base price level originally paid is not available, you are required to request a ticket change and pay the resulting price difference. Refund with deduction.",
+                  "price": {
+                    "currency": "�",
+                    "amount": 52.00,
+                    "originalAmount": null,
+                    "indicative": false
+                  },
+                  "discounts": [],
+                  "availableAmount": 82,
+                  "canModify": true,
+                  "canChange": true,
+                  "canRefund": true,
+                  "isCartaFrecciaProgram": true,
+                  "isXgoProgram": false,
+                  "isInhibited": false,
+                  "status": "SALEABLE",
+                  "infoMessages": [],
+                  "reportItemMessage": null,
+                  "travellers": [
+                    {
+                      "id": "xbe14a191-f769-4d2e-80df-876e1f9a9b70",
+                      "firstName": null,
+                      "lastName": null,
+                      "loyaltyCode": null,
+                      "customerKey": null,
+                      "parameters": [],
+                      "loyaltyPoints": null,
+                      "regionalLoyaltyPoints": null,
+                      "showCFBalanceLink": false,
+                      "showREGBalanceLink": false,
+                      "title": null,
+                      "tags": [],
+                      "adult": true,
+                      "loyaltyGiftCardBeneficiary": null
+                    }
+                  ],
+                  "offerKeys": [
+                    "x240f7798-37ff-4629-bc7b-ca8e47f1f4a5"
+                  ],
+                  "forceEvaluation": false,
+                  "paidSeatSelection": false,
+                  "seatNotAssigned": false,
+                  "additionalPrice": null,
+                  "selected": true,
+                  "selecteable": true
+                }
+              ],
+              "minPrice": {
+                "currency": "�",
+                "amount": 52.00,
+                "originalAmount": null,
+                "indicative": false
+              },
+              "bestOfferId": 1,
+              "extendedName": null,
+              "descriptionKey": "frecciarossa.1000.30005"
+            },
+            {
+              "id": 30004,
+              "name": "PREMIUM",
+              "shortName": "PREMIUM",
+              "groupName": "LABEL.SERVICE.GROUP.2PRE",
+              "description": null,
+              "descriptionStandard": "",
+              "offers": [
+                {
+                  "offerId": 1,
+                  "serviceId": 30004,
+                  "availableServiceId": null,
+                  "serviceName": "PREMIUM",
+                  "name": "BASE",
+                  "description": "This ticket allows unlimited booking changes prior to departure. For Frecce Trains, if the Base price level originally paid is not available, you are required to request a ticket change and pay the resulting price difference. Refund with deduction.",
+                  "price": {
+                    "currency": "�",
+                    "amount": 65.00,
+                    "originalAmount": null,
+                    "indicative": false
+                  },
+                  "discounts": [],
+                  "availableAmount": 32,
+                  "canModify": true,
+                  "canChange": true,
+                  "canRefund": true,
+                  "isCartaFrecciaProgram": true,
+                  "isXgoProgram": false,
+                  "isInhibited": false,
+                  "status": "SALEABLE",
+                  "infoMessages": [],
+                  "reportItemMessage": null,
+                  "travellers": [
+                    {
+                      "id": "xbe14a191-f769-4d2e-80df-876e1f9a9b70",
+                      "firstName": null,
+                      "lastName": null,
+                      "loyaltyCode": null,
+                      "customerKey": null,
+                      "parameters": [],
+                      "loyaltyPoints": null,
+                      "regionalLoyaltyPoints": null,
+                      "showCFBalanceLink": false,
+                      "showREGBalanceLink": false,
+                      "title": null,
+                      "tags": [],
+                      "adult": true,
+                      "loyaltyGiftCardBeneficiary": null
+                    }
+                  ],
+                  "offerKeys": [
+                    "x5ad663eb-2099-49ab-8ba6-80ac1929dd1b"
+                  ],
+                  "forceEvaluation": false,
+                  "paidSeatSelection": false,
+                  "seatNotAssigned": false,
+                  "additionalPrice": null,
+                  "selected": false,
+                  "selecteable": true
+                }
+              ],
+              "minPrice": {
+                "currency": "�",
+                "amount": 65.00,
+                "originalAmount": null,
+                "indicative": false
+              },
+              "bestOfferId": 1,
+              "extendedName": null,
+              "descriptionKey": "frecciarossa.1000.30004"
+            },
+            {
+              "id": 30002,
+              "name": "BUSINESS",
+              "shortName": "BUSINESS",
+              "groupName": "LABEL.SERVICE.GROUP.1BSN",
+              "description": null,
+              "descriptionStandard": "",
+              "offers": [
+                {
+                  "offerId": 1,
+                  "serviceId": 30002,
+                  "availableServiceId": null,
+                  "serviceName": "BUSINESS",
+                  "name": "BASE",
+                  "description": "This ticket allows unlimited booking changes prior to departure. For Frecce Trains, if the Base price level originally paid is not available, you are required to request a ticket change and pay the resulting price difference. Refund with deduction.",
+                  "price": {
+                    "currency": "�",
+                    "amount": 77.00,
+                    "originalAmount": null,
+                    "indicative": false
+                  },
+                  "discounts": [],
+                  "availableAmount": 8,
+                  "canModify": true,
+                  "canChange": true,
+                  "canRefund": true,
+                  "isCartaFrecciaProgram": true,
+                  "isXgoProgram": false,
+                  "isInhibited": false,
+                  "status": "SALEABLE",
+                  "infoMessages": [],
+                  "reportItemMessage": null,
+                  "travellers": [
+                    {
+                      "id": "xbe14a191-f769-4d2e-80df-876e1f9a9b70",
+                      "firstName": null,
+                      "lastName": null,
+                      "loyaltyCode": null,
+                      "customerKey": null,
+                      "parameters": [],
+                      "loyaltyPoints": null,
+                      "regionalLoyaltyPoints": null,
+                      "showCFBalanceLink": false,
+                      "showREGBalanceLink": false,
+                      "title": null,
+                      "tags": [],
+                      "adult": true,
+                      "loyaltyGiftCardBeneficiary": null
+                    }
+                  ],
+                  "offerKeys": [
+                    "xbaaeb9ea-3165-4c8a-a8e7-43e14f019f62"
+                  ],
+                  "forceEvaluation": false,
+                  "paidSeatSelection": false,
+                  "seatNotAssigned": false,
+                  "additionalPrice": null,
+                  "selected": false,
+                  "selecteable": true
+                }
+              ],
+              "minPrice": {
+                "currency": "�",
+                "amount": 77.00,
+                "originalAmount": null,
+                "indicative": false
+              },
+              "bestOfferId": 1,
+              "extendedName": null,
+              "descriptionKey": "frecciarossa.1000.30002"
+            },
+            {
+              "id": 30003,
+              "name": "BUSINESS AREA SILENZIO",
+              "shortName": "BUSINESS AREA SILENZIO",
+              "groupName": "LABEL.SERVICE.GROUP.1BSN",
+              "description": null,
+              "descriptionStandard": "",
+              "offers": [
+                {
+                  "offerId": 1,
+                  "serviceId": 30003,
+                  "availableServiceId": null,
+                  "serviceName": "BUSINESS AREA SILENZIO",
+                  "name": "BASE",
+                  "description": "This ticket allows unlimited booking changes prior to departure. For Frecce Trains, if the Base price level originally paid is not available, you are required to request a ticket change and pay the resulting price difference. Refund with deduction.",
+                  "price": {
+                    "currency": "�",
+                    "amount": 77.00,
+                    "originalAmount": null,
+                    "indicative": false
+                  },
+                  "discounts": [],
+                  "availableAmount": 12,
+                  "canModify": true,
+                  "canChange": true,
+                  "canRefund": true,
+                  "isCartaFrecciaProgram": true,
+                  "isXgoProgram": false,
+                  "isInhibited": false,
+                  "status": "SALEABLE",
+                  "infoMessages": [],
+                  "reportItemMessage": null,
+                  "travellers": [
+                    {
+                      "id": "xbe14a191-f769-4d2e-80df-876e1f9a9b70",
+                      "firstName": null,
+                      "lastName": null,
+                      "loyaltyCode": null,
+                      "customerKey": null,
+                      "parameters": [],
+                      "loyaltyPoints": null,
+                      "regionalLoyaltyPoints": null,
+                      "showCFBalanceLink": false,
+                      "showREGBalanceLink": false,
+                      "title": null,
+                      "tags": [],
+                      "adult": true,
+                      "loyaltyGiftCardBeneficiary": null
+                    }
+                  ],
+                  "offerKeys": [
+                    "x9c9edd9e-6ba0-4ecd-bf26-a53ae77b50f1"
+                  ],
+                  "forceEvaluation": false,
+                  "paidSeatSelection": false,
+                  "seatNotAssigned": false,
+                  "additionalPrice": null,
+                  "selected": false,
+                  "selecteable": true
+                }
+              ],
+              "minPrice": {
+                "currency": "�",
+                "amount": 77.00,
+                "originalAmount": null,
+                "indicative": false
+              },
+              "bestOfferId": 1,
+              "extendedName": null,
+              "descriptionKey": "frecciarossa.1000.30003"
+            },
+            {
+              "id": 30000,
+              "name": "EXECUTIVE",
+              "shortName": "EXECUTIVE",
+              "groupName": "LABEL.SERVICE.GROUP.EXE",
+              "description": null,
+              "descriptionStandard": "",
+              "offers": [
+                {
+                  "offerId": 1,
+                  "serviceId": 30000,
+                  "availableServiceId": null,
+                  "serviceName": "EXECUTIVE",
+                  "name": "BASE",
+                  "description": "This ticket allows unlimited booking changes prior to departure. For Frecce Trains, if the Base price level originally paid is not available, you are required to request a ticket change and pay the resulting price difference. Refund with deduction.",
+                  "price": {
+                    "currency": "�",
+                    "amount": 125.00,
+                    "originalAmount": null,
+                    "indicative": false
+                  },
+                  "discounts": [],
+                  "availableAmount": 7,
+                  "canModify": true,
+                  "canChange": true,
+                  "canRefund": true,
+                  "isCartaFrecciaProgram": true,
+                  "isXgoProgram": false,
+                  "isInhibited": false,
+                  "status": "SALEABLE",
+                  "infoMessages": [],
+                  "reportItemMessage": null,
+                  "travellers": [
+                    {
+                      "id": "xbe14a191-f769-4d2e-80df-876e1f9a9b70",
+                      "firstName": null,
+                      "lastName": null,
+                      "loyaltyCode": null,
+                      "customerKey": null,
+                      "parameters": [],
+                      "loyaltyPoints": null,
+                      "regionalLoyaltyPoints": null,
+                      "showCFBalanceLink": false,
+                      "showREGBalanceLink": false,
+                      "title": null,
+                      "tags": [],
+                      "adult": true,
+                      "loyaltyGiftCardBeneficiary": null
+                    }
+                  ],
+                  "offerKeys": [
+                    "xb82082b6-92c2-485b-a044-5579c5c2e3f7"
+                  ],
+                  "forceEvaluation": false,
+                  "paidSeatSelection": false,
+                  "seatNotAssigned": false,
+                  "additionalPrice": null,
+                  "selected": false,
+                  "selecteable": true
+                }
+              ],
+              "minPrice": {
+                "currency": "�",
+                "amount": 125.00,
+                "originalAmount": null,
+                "indicative": false
+              },
+              "bestOfferId": 1,
+              "extendedName": null,
+              "descriptionKey": "frecciarossa.1000.30000"
+            }
+          ],
+          "infoMessages": [],
+          "canShowSeatMap": true,
+          "collapsedVisualization": true,
+          "regional": false
+        },
+        {
+          "id": "xc18f99ec-ace0-4628-a992-db00bbc39346",
+          "summaries": [
+            {
+              "name": "Frecciarossa 9427",
+              "description": "Bologna Centrale (17:02) - Firenze S. M. Novella (17:39)",
+              "duration": "37min",
+              "highlightedMessage": null,
+              "urban": false,
+              "vehicleInfo": null,
+              "departureLocationName": "Bologna Centrale",
+              "arrivalLocationName": "Firenze S. M. Novella",
+              "departureTime": "2024-04-07T17:02:00.000+02:00",
+              "arrivalTime": "2024-04-07T17:39:00.000+02:00",
+              "trainInfo": {
+                "description": "9427",
+                "trainCategory": "Frecciarossa",
+                "acronym": "FR",
+                "denomination": "FRECCIAROSSA 1000",
+                "name": "9427",
+                "logoId": "FR1000",
+                "urban": false
+              }
+            }
+          ],
+          "selectedOfferId": 1,
+          "selectedServiceId": 30005,
+          "services": [
+            {
+              "id": 30005,
+              "name": "STANDARD",
+              "shortName": "STANDARD",
+              "groupName": "LABEL.SERVICE.GROUP.2STD",
+              "description": null,
+              "descriptionStandard": "",
+              "offers": [
+                {
+                  "offerId": 1,
+                  "serviceId": 30005,
+                  "availableServiceId": null,
+                  "serviceName": "STANDARD",
+                  "name": "BASE",
+                  "description": "This ticket allows unlimited booking changes prior to departure. For Frecce Trains, if the Base price level originally paid is not available, you are required to request a ticket change and pay the resulting price difference. Refund with deduction.",
+                  "price": {
+                    "currency": "�",
+                    "amount": 33.00,
+                    "originalAmount": null,
+                    "indicative": false
+                  },
+                  "discounts": [],
+                  "availableAmount": 16,
+                  "canModify": true,
+                  "canChange": true,
+                  "canRefund": true,
+                  "isCartaFrecciaProgram": true,
+                  "isXgoProgram": false,
+                  "isInhibited": false,
+                  "status": "SALEABLE",
+                  "infoMessages": [],
+                  "reportItemMessage": null,
+                  "travellers": [
+                    {
+                      "id": "xbe14a191-f769-4d2e-80df-876e1f9a9b70",
+                      "firstName": null,
+                      "lastName": null,
+                      "loyaltyCode": null,
+                      "customerKey": null,
+                      "parameters": [],
+                      "loyaltyPoints": null,
+                      "regionalLoyaltyPoints": null,
+                      "showCFBalanceLink": false,
+                      "showREGBalanceLink": false,
+                      "title": null,
+                      "tags": [],
+                      "adult": true,
+                      "loyaltyGiftCardBeneficiary": null
+                    }
+                  ],
+                  "offerKeys": [
+                    "xac12a852-8231-4146-a476-f0a36d027aae"
+                  ],
+                  "forceEvaluation": false,
+                  "paidSeatSelection": false,
+                  "seatNotAssigned": false,
+                  "additionalPrice": null,
+                  "selected": true,
+                  "selecteable": true
+                }
+              ],
+              "minPrice": {
+                "currency": "�",
+                "amount": 33.00,
+                "originalAmount": null,
+                "indicative": false
+              },
+              "bestOfferId": 1,
+              "extendedName": null,
+              "descriptionKey": "frecciarossa.1000.30005"
+            },
+            {
+              "id": 30004,
+              "name": "PREMIUM",
+              "shortName": "PREMIUM",
+              "groupName": "LABEL.SERVICE.GROUP.2PRE",
+              "description": null,
+              "descriptionStandard": "",
+              "offers": [
+                {
+                  "offerId": 1,
+                  "serviceId": 30004,
+                  "availableServiceId": null,
+                  "serviceName": "PREMIUM",
+                  "name": "BASE",
+                  "description": "This ticket allows unlimited booking changes prior to departure. For Frecce Trains, if the Base price level originally paid is not available, you are required to request a ticket change and pay the resulting price difference. Refund with deduction.",
+                  "price": {
+                    "currency": "�",
+                    "amount": 40.00,
+                    "originalAmount": null,
+                    "indicative": false
+                  },
+                  "discounts": [],
+                  "availableAmount": 1,
+                  "canModify": true,
+                  "canChange": true,
+                  "canRefund": true,
+                  "isCartaFrecciaProgram": true,
+                  "isXgoProgram": false,
+                  "isInhibited": false,
+                  "status": "SALEABLE",
+                  "infoMessages": [],
+                  "reportItemMessage": null,
+                  "travellers": [
+                    {
+                      "id": "xbe14a191-f769-4d2e-80df-876e1f9a9b70",
+                      "firstName": null,
+                      "lastName": null,
+                      "loyaltyCode": null,
+                      "customerKey": null,
+                      "parameters": [],
+                      "loyaltyPoints": null,
+                      "regionalLoyaltyPoints": null,
+                      "showCFBalanceLink": false,
+                      "showREGBalanceLink": false,
+                      "title": null,
+                      "tags": [],
+                      "adult": true,
+                      "loyaltyGiftCardBeneficiary": null
+                    }
+                  ],
+                  "offerKeys": [
+                    "xecf1fda0-6b4f-49c8-b461-7e77ac5d0b0a"
+                  ],
+                  "forceEvaluation": false,
+                  "paidSeatSelection": false,
+                  "seatNotAssigned": false,
+                  "additionalPrice": null,
+                  "selected": false,
+                  "selecteable": true
+                }
+              ],
+              "minPrice": {
+                "currency": "�",
+                "amount": 40.00,
+                "originalAmount": null,
+                "indicative": false
+              },
+              "bestOfferId": 1,
+              "extendedName": null,
+              "descriptionKey": "frecciarossa.1000.30004"
+            },
+            {
+              "id": 30002,
+              "name": "BUSINESS",
+              "shortName": "BUSINESS",
+              "groupName": "LABEL.SERVICE.GROUP.1BSN",
+              "description": null,
+              "descriptionStandard": "",
+              "offers": [
+                {
+                  "offerId": 1,
+                  "serviceId": 30002,
+                  "availableServiceId": null,
+                  "serviceName": "BUSINESS",
+                  "name": "BASE",
+                  "description": "This ticket allows unlimited booking changes prior to departure. For Frecce Trains, if the Base price level originally paid is not available, you are required to request a ticket change and pay the resulting price difference. Refund with deduction.",
+                  "price": {
+                    "currency": "�",
+                    "amount": 51.00,
+                    "originalAmount": null,
+                    "indicative": false
+                  },
+                  "discounts": [],
+                  "availableAmount": 8,
+                  "canModify": true,
+                  "canChange": true,
+                  "canRefund": true,
+                  "isCartaFrecciaProgram": true,
+                  "isXgoProgram": false,
+                  "isInhibited": false,
+                  "status": "SALEABLE",
+                  "infoMessages": [],
+                  "reportItemMessage": null,
+                  "travellers": [
+                    {
+                      "id": "xbe14a191-f769-4d2e-80df-876e1f9a9b70",
+                      "firstName": null,
+                      "lastName": null,
+                      "loyaltyCode": null,
+                      "customerKey": null,
+                      "parameters": [],
+                      "loyaltyPoints": null,
+                      "regionalLoyaltyPoints": null,
+                      "showCFBalanceLink": false,
+                      "showREGBalanceLink": false,
+                      "title": null,
+                      "tags": [],
+                      "adult": true,
+                      "loyaltyGiftCardBeneficiary": null
+                    }
+                  ],
+                  "offerKeys": [
+                    "x02f4dfca-91d5-4ef9-9888-78f031de9e7d"
+                  ],
+                  "forceEvaluation": false,
+                  "paidSeatSelection": false,
+                  "seatNotAssigned": false,
+                  "additionalPrice": null,
+                  "selected": false,
+                  "selecteable": true
+                }
+              ],
+              "minPrice": {
+                "currency": "�",
+                "amount": 51.00,
+                "originalAmount": null,
+                "indicative": false
+              },
+              "bestOfferId": 1,
+              "extendedName": null,
+              "descriptionKey": "frecciarossa.1000.30002"
+            },
+            {
+              "id": 30003,
+              "name": "BUSINESS AREA SILENZIO",
+              "shortName": "BUSINESS AREA SILENZIO",
+              "groupName": "LABEL.SERVICE.GROUP.1BSN",
+              "description": null,
+              "descriptionStandard": "",
+              "offers": [
+                {
+                  "offerId": 1,
+                  "serviceId": 30003,
+                  "availableServiceId": null,
+                  "serviceName": "BUSINESS AREA SILENZIO",
+                  "name": "BASE",
+                  "description": "This ticket allows unlimited booking changes prior to departure. For Frecce Trains, if the Base price level originally paid is not available, you are required to request a ticket change and pay the resulting price difference. Refund with deduction.",
+                  "price": {
+                    "currency": "�",
+                    "amount": 51.00,
+                    "originalAmount": null,
+                    "indicative": false
+                  },
+                  "discounts": [],
+                  "availableAmount": 7,
+                  "canModify": true,
+                  "canChange": true,
+                  "canRefund": true,
+                  "isCartaFrecciaProgram": true,
+                  "isXgoProgram": false,
+                  "isInhibited": false,
+                  "status": "SALEABLE",
+                  "infoMessages": [],
+                  "reportItemMessage": null,
+                  "travellers": [
+                    {
+                      "id": "xbe14a191-f769-4d2e-80df-876e1f9a9b70",
+                      "firstName": null,
+                      "lastName": null,
+                      "loyaltyCode": null,
+                      "customerKey": null,
+                      "parameters": [],
+                      "loyaltyPoints": null,
+                      "regionalLoyaltyPoints": null,
+                      "showCFBalanceLink": false,
+                      "showREGBalanceLink": false,
+                      "title": null,
+                      "tags": [],
+                      "adult": true,
+                      "loyaltyGiftCardBeneficiary": null
+                    }
+                  ],
+                  "offerKeys": [
+                    "x0d636cbd-784d-40b8-96e7-bee716eda491"
+                  ],
+                  "forceEvaluation": false,
+                  "paidSeatSelection": false,
+                  "seatNotAssigned": false,
+                  "additionalPrice": null,
+                  "selected": false,
+                  "selecteable": true
+                }
+              ],
+              "minPrice": {
+                "currency": "�",
+                "amount": 51.00,
+                "originalAmount": null,
+                "indicative": false
+              },
+              "bestOfferId": 1,
+              "extendedName": null,
+              "descriptionKey": "frecciarossa.1000.30003"
+            },
+            {
+              "id": 30000,
+              "name": "EXECUTIVE",
+              "shortName": "EXECUTIVE",
+              "groupName": "LABEL.SERVICE.GROUP.EXE",
+              "description": null,
+              "descriptionStandard": "",
+              "offers": [
+                {
+                  "offerId": 1,
+                  "serviceId": 30000,
+                  "availableServiceId": null,
+                  "serviceName": "EXECUTIVE",
+                  "name": "BASE",
+                  "description": "This ticket allows unlimited booking changes prior to departure. For Frecce Trains, if the Base price level originally paid is not available, you are required to request a ticket change and pay the resulting price difference. Refund with deduction.",
+                  "price": {
+                    "currency": "�",
+                    "amount": 120.00,
+                    "originalAmount": null,
+                    "indicative": false
+                  },
+                  "discounts": [],
+                  "availableAmount": 9,
+                  "canModify": true,
+                  "canChange": true,
+                  "canRefund": true,
+                  "isCartaFrecciaProgram": true,
+                  "isXgoProgram": false,
+                  "isInhibited": false,
+                  "status": "SALEABLE",
+                  "infoMessages": [],
+                  "reportItemMessage": null,
+                  "travellers": [
+                    {
+                      "id": "xbe14a191-f769-4d2e-80df-876e1f9a9b70",
+                      "firstName": null,
+                      "lastName": null,
+                      "loyaltyCode": null,
+                      "customerKey": null,
+                      "parameters": [],
+                      "loyaltyPoints": null,
+                      "regionalLoyaltyPoints": null,
+                      "showCFBalanceLink": false,
+                      "showREGBalanceLink": false,
+                      "title": null,
+                      "tags": [],
+                      "adult": true,
+                      "loyaltyGiftCardBeneficiary": null
+                    }
+                  ],
+                  "offerKeys": [
+                    "xdf69c05a-8158-4d1d-ba84-7e06f5c681ac"
+                  ],
+                  "forceEvaluation": false,
+                  "paidSeatSelection": false,
+                  "seatNotAssigned": false,
+                  "additionalPrice": null,
+                  "selected": false,
+                  "selecteable": true
+                }
+              ],
+              "minPrice": {
+                "currency": "�",
+                "amount": 120.00,
+                "originalAmount": null,
+                "indicative": false
+              },
+              "bestOfferId": 1,
+              "extendedName": null,
+              "descriptionKey": "frecciarossa.1000.30000"
+            }
+          ],
+          "infoMessages": [],
+          "canShowSeatMap": true,
+          "collapsedVisualization": true,
+          "regional": false
+        }
+      ],
+      "customizes": [],
+      "stopList": [],
+      "messages": [
+        null
+      ],
+      "availabilities": [],
+      "nextDaySolution": false,
+      "tooltip": {
+        "nodeServices": [
+          {
+            "denomination": "FRECCIAROSSA 1000",
+            "name": "9643",
+            "offer": "Base",
+            "service": "Standard"
+          },
+          {
+            "denomination": "FRECCIAROSSA 1000",
+            "name": "9427",
+            "offer": "Base",
+            "service": "Standard"
+          }
+        ],
+        "loyaltyPoints": 85.00,
+        "regionalLoyaltyPoints": 0
+      },
+      "canShowSeatMap": true,
+      "notAllOfferGroupStandard": false,
+      "silenceArea": false,
+      "fastPurchase": false,
+      "canShowGrid": false,
+      "co2Emission": null
+    }
+  ],
+  "minimumPrices": []
+}

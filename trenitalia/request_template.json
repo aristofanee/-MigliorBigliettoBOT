@@ -1,0 +1,18 @@
+{
+	"departureLocationId": [],
+	"arrivalLocationId": [],
+	"departureTime": [],
+	"adults": 1,
+	"children": 0,
+	"criteria": {
+		"frecceOnly": false,
+		"regionalOnly": false,
+		"noChanges": false,
+		"order": "DEPARTURE_DATE",
+	    "limit": [],
+		"offset": 0
+	},
+	"advancedSearchRequest": {
+		"bestFare": false
+	}
+}

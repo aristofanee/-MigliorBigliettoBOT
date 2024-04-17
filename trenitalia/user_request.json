@@ -1,0 +1,18 @@
+{
+  "searchObjects": [
+    {
+      "userID": "sigMerda",
+      "searchParameters": [
+        {
+          "departureCity": "milano",
+          "arrivalCity": "firenze",
+          "prezzoSoglia": 25,
+          "dateFrom": [],
+          "searchPeriod": 7,
+          "andataEritorno": false,
+          "daysReturnOffset": 7
+        }
+      ]
+    }
+  ]
+}

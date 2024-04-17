@@ -1,0 +1,18 @@
+{
+	"departureLocationId": 830001650,
+	"arrivalLocationId": 835118008,
+	"departureTime": "2024-06-07T15:00:00.000+02:00",
+	"adults": 1,
+	"children": 0,
+	"criteria": {
+		"frecceOnly": false,
+		"regionalOnly": false,
+		"noChanges": false,
+		"order": "DEPARTURE_DATE",
+	        "limit": 1,
+		"offset": 0
+	},
+	"advancedSearchRequest": {
+		"bestFare": false
+	}
+}
