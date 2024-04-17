@@ -1,6 +1,6 @@
 # Features 
 ## Importanti
-- [ ] Scegliere il NOMEEE 
+- [x] Scegliere il NOMEEE 
 - [ ] Mostrare il prezzo più basso in X solutioni
 - [ ] Mostrare il numero di cambi e il tempo di percorrenza
 - [ ] Cambiare facilmente il prezzo soglia e le città
